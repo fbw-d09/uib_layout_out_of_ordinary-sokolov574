@@ -2,3 +2,63 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.genres
+{
+    border: 2px solid red;
+    display: flex;
+    height: 50rem;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+.box 
+{
+   
+    /* border: 2px solid blue; */
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-content: flex-start;
+   
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+    
+
+}
+
+.flex-container-1
+{
+    background-color: rgb(30, 144, 255);
+
+}
+.flex-container-2
+{
+    background-color: rgb(190, 178, 178);
+}
+.flex-container-3
+{
+    background-color: rgb(255, 214, 30);
+    flex-grow: 6;
+}
+.flex-container-4
+{
+    background-color:   rgb(0, 0, 0);
+    color: white;
+}
+.flex-container-5
+{
+background-color:  rgb(169, 169, 169);
+
+}
+.flex-container-6
+{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-grow: 3;
+    
+   
+}
